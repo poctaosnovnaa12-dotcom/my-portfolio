@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональна сторінка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Хедер з навігацією -->
+    <header>
+        <nav>
+            <a href="#about">Про мене</a>
+            <a href="#skills">Навички</a>
+            <a href="#code">Приклади коду</a>
+            <a href="#education">Освіта</a>
+            <a href="#languages">Мови</a>
+            <a href="#projects">Проєкти</a>
+        </nav>
+    </header>
+
+    <!-- Основна частина -->
+    <main>
+        <!-- Ліва колонка -->
+        <aside class="sidebar">
+            <img src="photo.jpg" alt="Фото" class="avatar">
+            <h1 class="name">Микита<br>Михнюк</h1>
+            <p class="role">Студент</p>
+
+            <div class="info">
+                <div class="info-item">
+                    <span class="icon">✉</span>
+                    <div>
+                        <p class="label">ЕЛЕКТРОННА ПОШТА</p>
+                        <p class="value">poctaosnovnaa12@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span class="icon">📱</span>
+                    <div>
+                        <p class="label">НОМЕР ТЕЛЕФОНУ</p>
+                        <p class="value">+ 380 60 555 444</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span class="icon">🎂</span>
+                    <div>
+                        <p class="label">ДАТА НАРОДЖЕННЯ</p>
+                        <p class="value">15 грудня 2007 року</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <p class="label">АДРЕСА</p>
+                        <p class="value">Україна</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="socials">
+                <a href="#">💬</a>
+                <a href="#">🐙</a>
+            </div>
+        </aside>
+
+        <!-- Права колонка -->
+        <section class="content">
+            <div class="block" id="about">
+                <h2>Про мене</h2>
+                <p>Я студент 4 курсу, навчаюсь на спеціальності «Кібербезпека». Цікавлюсь веб-розробкою, програмуванням на C# та захистом інформації.</p>
+            </div>
+
+            <div class="block" id="skills">
+                <h2>Навички</h2>
+                <ul>
+                    <li>HTML — впевнено</li>
+                    <li>CSS — впевнено</li>
+                    <li>JavaScript — базово</li>
+                    <li>C# — середньо</li>
+                    <li>Git/GitHub — базово</li>
+                    <li>VS Code — впевнено</li>
+                    <li>MS SQL — базово</li>
+                </ul>
+            </div>
+
+            <div class="block" id="code">
+                <h2>Приклади коду</h2>
+                <pre><code>Console.WriteLine("Hello, World!");</code></pre>
+                <p>Приклад простої програми на C#</p>
+            </div>
+
+            <div class="block" id="education">
+                <h2>Освіта</h2>
+
+                <div class="edu-item">
+                    <p class="edu-icon">🎓</p>
+                    <div>
+                        <p class="edu-title">Фаховий коледж «КАІ ТЕХ»</p>
+                        <p class="edu-sub">Кібербезпека та захист інформації</p>
+                        <p class="edu-year">2022 — 2026</p>
+                    </div>
+                </div>
+
+                <div class="edu-item">
+                    <p class="edu-icon">🎓</p>
+                    <div>
+                        <p class="edu-title">Курси з веб-розробки</p>
+                        <p class="edu-sub">HTML, CSS, JavaScript</p>
+                        <p class="edu-year">2025 рік</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block" id="languages">
+                <h2>Мови</h2>
+                <ul>
+                    <li>Українська — рідна</li>
+                    <li>Англійська — A1 (початковий)</li>
+                </ul>
+            </div>
+
+            <div class="block" id="projects">
+                <h2>Проєкти</h2>
+                <ul>
+                    <li><a href="https://poctaosnovnaa12-dotcom.github.io/login-form/">Форма логіну</a></li>
+                    <li><a href="#">Персональна сторінка</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
